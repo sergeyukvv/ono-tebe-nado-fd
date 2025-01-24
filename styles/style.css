@@ -42,6 +42,7 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 24.3px;
+  font-style: normal;
   display: flex;
   flex-direction: column;
   align-content: flex-end;
@@ -104,7 +105,6 @@
 }
 
 .cover__description {
-  height: 51px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -263,15 +263,14 @@
 }
 
 .about__text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
   padding-top: 100px;
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
-}
-
-.about__text_main {
-  padding-bottom: 24px;
 }
 
 .footer {
